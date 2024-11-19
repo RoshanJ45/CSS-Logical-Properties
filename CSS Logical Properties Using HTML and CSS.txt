@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+        .parentBlock1 {
+            background: green;
+            inline-size: 350px; 
+        }
+        .parentBlock1 .childBlock1 { 
+            background: grey !important;
+            text-align: center; 
+            margin-inline: 50px; 
+            border-block: 8px dashed white; 
+        }
+    </style>
+</head>
+<body>
+    <div class="parentBlock1">
+        <div class="childBlock1">
+            <h2>Example1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at nisl arcu. Quisque quis egestas justo. Aenean sit amet ipsum consectetur, elementum magna ut, congue ipsum. Duis vulputate ipsum in leo vehicula, quis gravida nulla dapibus. Aliquam sit amet tellus quis arcu condimentum pellentesque nec pellentesque tellus. Sed quis orci ligula. Mauris dictum erat sit amet risus auctor pellentesque. Suspendisse interdum sed est a rutrum.</p>
+        </div>
+    </div>
+</body>
+</html>

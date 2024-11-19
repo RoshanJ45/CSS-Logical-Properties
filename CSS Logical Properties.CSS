@@ -1,0 +1,18 @@
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+        .parentBlock1 {
+            background: green;
+            inline-size: 350px; 
+        }
+        .parentBlock1 .childBlock1 { 
+            background: grey !important;
+            text-align: center; 
+            margin-inline: 50px; 
+            border-block: 8px dashed white; 
+        }
+   
